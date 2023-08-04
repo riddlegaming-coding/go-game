@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "go-game"
+version = "0.1.0"
+description = ""
+authors = ["veledara <71222580+veledara@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "go_game"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
